@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root{
+    --primary-color: #006E75;
+    --secondary-color: #0B978E;
+    --third-color: #B9FFE8;
+    --fourth-color: #425D6D;
+}
+body{
+    font-family: 'poppins', 'sens serif';
+    font-weight: 500;
+    font-size: large;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    
+}
+.nav .container{
+    justify-content: space-between;
+    margin-top: 45px;
+    display: flex;
+}
+.hover-link{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-out;
+    justify-content: end;
+}
+.hover-link:hover{
+    color: var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+.secondary-btn{
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    color: white !important;
+    padding: 12px 24px;
+    transition: 0.3s ease-out;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.secondary-btn:hover{
+    background-color: var(--secondary-color);
+}
+.primary-btn{
+    color: black;
+    border: 0.5px solid;
+    border-radius: 6px;
+    padding: 12px 24px;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+.primary-btn:hover{
+    background-color: #006E75;
+    color: white;
+}
+.info{
+    border: 0.1px solid rgb(249, 234, 234);
+    border-radius: 20px;
+    padding: 120px 120px;
+    
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:140px;
+    font-family: "Share Tech", sans-serif;
+    font-style: normal;
+    letter-spacing: normal;
+}
+p{
+    font-size: 1.5rem;
+    max-width: 450px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+span{
+    border: none;
+    color: black;
+    border-radius: 20px;
+    padding: 4px 4px;
+
+}
+.demo-btn>li>a{
+    font-family: "poppins", "sans-serif";
+}
+.sign-up{
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    color: white !important;
+    padding: 12px 24px;
+    transition: 0.3s ease-out;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.sign-up:hover{
+    background-color: var(--secondary-color);
+}
+.demo{
+    border: 0.5px solid;
+    border-radius: 6px;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: black;
+}
+.demo:hover{
+    background-color: #006E75;
+    color: white;
+}
+.main-btn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 12px;
+    letter-spacing: normal;
+    
+}
+h3{
+    font-weight: 200;
+    font-size: medium;
+    text-align: center;
+    margin-top: 16px;
+}
+.fa-brands{
+    color: var(--primary-color);
+}
+.icons .fa-brands{
+    position: relative;
+    left: 190px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.small-txt{
+    margin-block: 30px;
+    text-align: center;
+    color: #050d0e;
+}
+.logos img{
+    width: 180px;
+    padding: 30px;
+    cursor: pointer;
+}
+.features-header {
+    text-align: center;
+    margin-top: 60px;
+}
+.features-header h2{
+    margin-bottom: 20px;
+}
+.features-header a i{
+    margin-left: 8px;
+    margin-top: 9px;
+    transition: 1s ease-out;
+}
+.features-cards .feature-image{
+    width: 200px;
+    
+}
+.logo-image{
+    width: 300px;
+    cursor: pointer;
+}
+.features-cards{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+      font-family: "Roboto", sans-serif;
+}
+.features-cards span{
+    background-image: none;
+    color: #425D6d;
+    margin-top: 6px;
+    font-size: larger;
+}
+.features-cards h2{
+    margin-top: 100px;
+    color: #425D6D;
+}
+.features-cards a{
+    margin: auto;
+    position: relative;
+    right: 370px;
+    top: 45px;
+}
+.examples-header{
+    text-align: center;
+    margin-top: 60px;
+}
+.examples-header a i{
+    margin-left: 8px;
+    margin-top: 32px;
+    transition: 1s ease-out;
+}
+.examples-area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.examples-area .examples-card{
+    width: 23%;
+    min-height: 300px;
+    background-color: black;
+    position: relative;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.8)), url(https://media.istockphoto.com/id/1340085987/photo/selfiemostpoint-wooden-post-direction-signs-to-world-cities-of-london-chicago-miami-havan.jpg?s=1024x1024&w=is&k=20&c=pgZ-TFEQh9mI3622PR5qW9DVRTZwx5_hQVFNLLxmykY=) ;
+    background-size: cover;
+}
+.examples-area .examples-card:hover{
+    transform: scale(1.2) translateY(-2px);
+    transition: 0.2s ease-out;
+}
+.examples-area h3{
+    padding: 10px;
+    position: absolute;
+    font-size: 18px;
+    top: 65%;
+    color: white;
+}
+.cta-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+.cta-section{
+    background-color: var(--fourth-color);
+    margin-top: 70px;
+    height: 50vh;
+    padding-top: 118px;
+}
+.cta-container span{
+    text-align: center;
+    font-size: larger;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+footer{
+        background-color: #ebf2fa;
+}
+.link-colum{
+    gap: 50px;
+}
+.link-column a{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(10, 8, 8);
+    transition: 0.3s ease-out;
+}
+.link-column a:hover{
+    color: var(--secondary-color);
+}
+.subfooter{
+    background-color: #b9cde4;
+    padding: 30px;
+}
+.subfooter .link-column{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.subfooter .link-column i{
+    margin-top: 17px;
+    gap: 10px;
+    cursor: pointer;
+}
+.subfooter .link-column i:hover{
+    color: var(--fourth-color);
+    transform: scale(1.2) translateY(-2px);
+}
