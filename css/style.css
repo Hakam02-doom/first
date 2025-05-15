@@ -155,12 +155,10 @@ h3{
 .fa-brands{
     color: var(--primary-color);
 }
-.icons .fa-brands{
-    position: relative;
-    left: 190px;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: center;
+.icons{
+    padding: 23px;
+    display: flex;
+    justify-content: space-around;
 }
 .small-txt{
     margin-block: 30px;
